@@ -11,7 +11,7 @@
   <meta property="og:title" content="0.4 Software needed | Linear Mixed Models in Linguistics and Psychology: A Comprehensive Introduction" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://bookdown.org/yihui/bookdown/" />
-  <meta property="og:image" content="https://bookdown.org/yihui/bookdown/images/cover.jpg" />
+  <meta property="og:image" content="https://bookdown.org/yihui/bookdown/images/temporarycover.jpg" />
   <meta property="og:description" content="Linear Mixed Models for Linguistics and Psychology: A Comprehensive Introduction" />
   <meta name="github-repo" content="rstudio/bookdown" />
 
@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="0.4 Software needed | Linear Mixed Models in Linguistics and Psychology: A Comprehensive Introduction" />
   
   <meta name="twitter:description" content="Linear Mixed Models for Linguistics and Psychology: A Comprehensive Introduction" />
-  <meta name="twitter:image" content="https://bookdown.org/yihui/bookdown/images/cover.jpg" />
+  <meta name="twitter:image" content="https://bookdown.org/yihui/bookdown/images/temporarycover.jpg" />
 
 <meta name="author" content="Shravan Vasishth, Daniel Schad, Audrey Bürki, Reinhold Kliegl" />
 
@@ -207,11 +207,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Before you start, please install</p>
 <ul>
 <li><a href="https://cran.r-project.org/">R</a> (and <a href="https://www.rstudio.com/">RStudio</a> or any other IDE)</li>
-<li>The R package <code>rstan</code> (please pay attention to the instructions!):
-<ul>
-<li><a href="https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Windows">Instructions for Windows</a></li>
-<li><a href="https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Mac-or-Linux">Instructions for Mac or Linux</a></li>
-</ul></li>
 <li>The R packages <code>MASS</code>, <code>dplyr</code>, <code>purrr</code>, <code>readr</code>, <code>extraDistr</code>, <code>ggplot2</code>, <code>brms</code>, and <code>bayesplot</code>:
 <ul>
 <li>They can be installed in the usual way: <code>install.packages(c(&quot;MASS&quot;, &quot;dplyr&quot;, &quot;purrr&quot;, &quot;readr&quot;, &quot;extraDistr&quot;, &quot;ggplot2&quot;, &quot;brms&quot;, &quot;bayesplot&quot;))</code>.</li>
@@ -225,14 +220,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <a class="sourceLine" id="cb1-5" data-line-number="5"><span class="kw">library</span>(purrr)</a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"><span class="kw">library</span>(readr)</a>
 <a class="sourceLine" id="cb1-7" data-line-number="7"><span class="kw">library</span>(extraDistr)</a>
-<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="kw">library</span>(ggplot2)</a>
-<a class="sourceLine" id="cb1-9" data-line-number="9"><span class="kw">library</span>(brms)</a>
-<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="kw">library</span>(rstan)</a>
-<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="co">## Save compiled models:</span></a>
-<a class="sourceLine" id="cb1-12" data-line-number="12"><span class="kw">rstan_options</span>(<span class="dt">auto_write =</span> <span class="ot">TRUE</span>)</a>
-<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="co">## Parallelize the chains using all the cores:</span></a>
-<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="kw">options</span>(<span class="dt">mc.cores =</span> parallel<span class="op">::</span><span class="kw">detectCores</span>())</a>
-<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="kw">library</span>(bayesplot)</a></code></pre></div>
+<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="kw">library</span>(ggplot2)</a></code></pre></div>
 </div>
             </section>
 
